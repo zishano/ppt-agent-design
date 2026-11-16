@@ -1,0 +1,6 @@
+interface:
+  display_name: "ppt-validation"
+  short_description: "Evidence-backed research presentation workflow"
+  default_prompt: "Use $ppt-validation for the matching research presentation stage."
+policy:
+  allow_implicit_invocation: true

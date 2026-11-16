@@ -1,0 +1,211 @@
+[
+  {
+    "question": "三类工作到底有何差异",
+    "inputs": [
+      "业务请求",
+      "训练批次",
+      "提示词"
+    ],
+    "subprocesses": [
+      "事务读写与提交/回滚",
+      "前向、损失、反向、同步更新",
+      "输入处理与逐步生成"
+    ],
+    "state": [
+      "业务状态",
+      "模型权重",
+      "请求KV"
+    ],
+    "output": [
+      "提交结果",
+      "可部署模型",
+      "token序列"
+    ],
+    "page_id": "P01",
+    "fact_ids": [
+      "F001",
+      "F002",
+      "F004",
+      "F006",
+      "F009",
+      "F013"
+    ],
+    "checks": [
+      "semantic relationship review",
+      "source scope",
+      "native editability",
+      "actual render",
+      "text completeness"
+    ]
+  },
+  {
+    "question": "分开的计算如何形成协同更新",
+    "inputs": [
+      "每进程的数据批次"
+    ],
+    "subprocesses": [
+      "模型副本",
+      "前向/损失",
+      "反向",
+      "局部梯度",
+      "集合通信"
+    ],
+    "state": [
+      "各副本权重"
+    ],
+    "feedback": [
+      "同步后的梯度用于各副本更新"
+    ],
+    "page_id": "P02",
+    "fact_ids": [
+      "F004",
+      "F005",
+      "F012"
+    ],
+    "checks": [
+      "semantic relationship review",
+      "source scope",
+      "native editability",
+      "actual render",
+      "text completeness"
+    ]
+  },
+  {
+    "question": "多请求怎样共享执行又保留独立状态",
+    "inputs": [
+      "新输入请求",
+      "生成中请求"
+    ],
+    "subprocesses": [
+      "生成优先",
+      "余量接入输入分块",
+      "混合批次",
+      "模型执行"
+    ],
+    "state": [
+      "共享权重",
+      "按请求保留KV"
+    ],
+    "output": [
+      "首个token",
+      "后续token"
+    ],
+    "exception": [
+      "空间不足时抢占/重算"
+    ],
+    "page_id": "P03",
+    "fact_ids": [
+      "F006",
+      "F007",
+      "F008",
+      "F009",
+      "F015"
+    ],
+    "checks": [
+      "semantic relationship review",
+      "source scope",
+      "native editability",
+      "actual render",
+      "text completeness"
+    ]
+  },
+  {
+    "question": "什么状态需要被保留",
+    "subprocesses": [
+      "事务操作",
+      "训练前向/反向",
+      "推理执行"
+    ],
+    "state": [
+      "持久化业务结果",
+      "模型权重/中间结果/梯度",
+      "共享权重+请求缓存"
+    ],
+    "relations": [
+      "状态归属",
+      "更新",
+      "共同占用容量"
+    ],
+    "page_id": "P04",
+    "fact_ids": [
+      "F001",
+      "F002",
+      "F004",
+      "F009",
+      "F013",
+      "F018"
+    ],
+    "checks": [
+      "semantic relationship review",
+      "source scope",
+      "native editability",
+      "actual render",
+      "text completeness"
+    ]
+  },
+  {
+    "question": "三种并行分担什么",
+    "subprocesses": [
+      "同层张量分片",
+      "按层分段",
+      "完整模型复制"
+    ],
+    "relations": [
+      "层内协作",
+      "中间结果传递",
+      "不同输入由不同副本处理"
+    ],
+    "boundary": [
+      "DP训练需梯度同步；DP推理可各接请求"
+    ],
+    "page_id": "P05",
+    "fact_ids": [
+      "F005",
+      "F010",
+      "F011",
+      "F012"
+    ],
+    "checks": [
+      "semantic relationship review",
+      "source scope",
+      "native editability",
+      "actual render",
+      "text completeness"
+    ]
+  },
+  {
+    "question": "如何从负载追到配置与交付",
+    "inputs": [
+      "事务条件",
+      "模型与任务质量",
+      "输入输出与并发"
+    ],
+    "subprocesses": [
+      "识别约束",
+      "改变配置",
+      "检查交付"
+    ],
+    "feedback": [
+      "同条件测量质量/时延/吞吐/功率/成本"
+    ],
+    "boundary": [
+      "分析框架不是性能承诺"
+    ],
+    "page_id": "P06",
+    "fact_ids": [
+      "F001",
+      "F004",
+      "F014",
+      "F015",
+      "F016",
+      "F017"
+    ],
+    "checks": [
+      "semantic relationship review",
+      "source scope",
+      "native editability",
+      "actual render",
+      "text completeness"
+    ]
+  }
+]

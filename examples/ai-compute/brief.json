@@ -1,0 +1,10 @@
+{
+  "title": "AI计算与传统数据中心计算的本质差异",
+  "revision": 3,
+  "user_correction": "丰富图中的对象、子过程、状态与依赖；不是额外加数字",
+  "slides_per_deck": 6,
+  "aspect": "16:9",
+  "visual_policy": "分层系统图和必要标签；不以稀疏图标代替机制",
+  "removed_constraint": "60字硬上限",
+  "source_policy": "沿用既有已核验事实；全部为定性机制图"
+}

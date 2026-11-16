@@ -1,0 +1,15 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.DS_Store
+# Local verification outputs and superseded rule snapshots
+history/
+**/verification-run/
+outputs/
+build/
+*.log
