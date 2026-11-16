@@ -29,3 +29,6 @@ Paths in this section are relative to the package root. Read references/diagram-
 
 ## Physical-machine composition
 Apply references/physical-machine.zh-CN.md. Map parent/component IDs, per-unit and system quantities, derivations, placement/orientation evidence, connection types, source/model scope and unknowns. Map each left whole-machine element to a numbered right detail tier on the same page. Separate actual target hardware, reported design, reference platform and authorized illustrative geometry.
+
+## Output root
+Store source, claim, dataset and page-map artifacts in the task’s repository-root `output/<project-name>/`. Use relative artifact paths and keep the same root as brief.json.

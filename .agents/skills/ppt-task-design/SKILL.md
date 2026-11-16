@@ -17,3 +17,6 @@ Paths in this section are relative to the package root. Record diagram_detail_po
 
 ## Physical-machine composition
 For machine/rack/equipment composition, read references/physical-machine.zh-CN.md (relative to package root). Record the default same-page left whole-machine / right layered-detail requirement, static illustration style, hardware scope and any permission to depict unverified geometry. Do not assume “animated style” requests motion.
+
+## Output root
+Set the project root to repository-root `output/<project-name>/` unless the user explicitly supplies another destination. Save brief.json there and use this same root through all later stages. Preserve existing rounds with distinct revision directories.

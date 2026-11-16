@@ -1,0 +1,26 @@
+{
+  "slides": 8,
+  "pptx_sha256": "215c5714d54d39d803921a5c7b59fe6d7f6e132902ec680bbe29ae1563b32d71",
+  "pdf_sha256": "7a8fc65809f522dfda21187ff1ee8d3f039d6c71c5511f060260af58b7aba8be",
+  "package": "passed",
+  "text_coverage": "passed",
+  "native_shapes_and_text": true,
+  "static_only": true,
+  "visual_review": {
+    "status": "supported",
+    "artifacts": [
+      "renders/contact-final.jpg",
+      "renders/04.png",
+      "renders/07.png"
+    ],
+    "observations": [
+      "Reviewed all eight page renders for hierarchy, labels and layout; checked updated pages 4 and 7 at reading scale.",
+      "72 GPU labels retained; bidirectional inter-domain representative exchange corrected.",
+      "No measured bandwidth comparisons or unverifiable hardware chassis illustrations included."
+    ],
+    "limit": "LibreOffice rendering inspected; PowerPoint desktop not tested."
+  },
+  "renderer": "LibreOffice; not PowerPoint desktop",
+  "size_bytes": 86505,
+  "semantic_review": "supported: source scope, collective operation meanings, model-parallel placement qualifications reviewed"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "S1",
+    "url": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S1.txt",
+    "status": "read"
+  },
+  {
+    "id": "S2",
+    "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S2.txt",
+    "status": "read"
+  },
+  {
+    "id": "S3",
+    "url": "https://www.nvidia.com/en-us/networking/products/infiniband/",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S3.txt",
+    "status": "read"
+  },
+  {
+    "id": "S5",
+    "url": "https://docs.nvidia.com/nemo/megatron-bridge/latest/parallelisms.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S5.txt",
+    "status": "read"
+  },
+  {
+    "id": "S7",
+    "url": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/p2p.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S7.txt",
+    "status": "read"
+  },
+  {
+    "id": "S8",
+    "url": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/troubleshooting.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S8.txt",
+    "status": "read"
+  }
+]

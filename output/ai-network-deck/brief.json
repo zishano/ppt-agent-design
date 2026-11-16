@@ -1,0 +1,17 @@
+{
+  "title": "AI集群通信需求与Scale-up、Scale-out网络的区别",
+  "language": "zh-CN",
+  "aspect": "16:9",
+  "backend": "standalone python-pptx",
+  "pages": 8,
+  "diagram_detail_policy": "diagram-rich",
+  "audience": "技术与产业读者",
+  "scope": "通信需求、互连域、拓扑、并行放置与验证",
+  "illustrations": "逻辑示意，不虚构机器实物或性能数据",
+  "required": [
+    "图为主",
+    "区分Scale-up域与物理机柜边界",
+    "来源可追溯",
+    "静态、原生可编辑"
+  ]
+}

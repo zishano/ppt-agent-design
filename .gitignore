@@ -13,3 +13,8 @@ history/
 outputs/
 build/
 *.log
+
+# Local renderer profiles and caches inside tracked presentation projects
+output/**/lo-profile/
+output/**/cache/
+output/**/.cache/

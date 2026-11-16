@@ -51,13 +51,13 @@ python -m venv .venv
 # Linux/macOS；Windows 使用对应的虚拟环境激活方式
 source .venv/bin/activate
 python -m pip install -r examples/ai-compute/requirements.txt
-python examples/ai-compute/build_example.py --output-dir outputs/ai-compute
-soffice --headless --convert-to pdf --outdir outputs/ai-compute/A outputs/ai-compute/A/A_分层机制图.pptx
+python examples/ai-compute/build_example.py --output-dir output/ai-compute
+soffice --headless --convert-to pdf --outdir output/ai-compute/A output/ai-compute/A/A_分层机制图.pptx
 python examples/ai-compute/verify_example.py \
-  --pptx outputs/ai-compute/A/A_分层机制图.pptx \
-  --pdf outputs/ai-compute/A/A_分层机制图.pdf \
-  --report outputs/ai-compute/validation.json \
-  --preview-dir outputs/ai-compute/previews
+  --pptx output/ai-compute/A/A_分层机制图.pptx \
+  --pdf output/ai-compute/A/A_分层机制图.pdf \
+  --report output/ai-compute/validation.json \
+  --preview-dir output/ai-compute/previews
 ```
 
 输出为六页 16:9 PPT、备注、事实映射、PDF、PNG 与有限自动检查报告。命令中的克隆地址为本仓库的目标发布地址；是否已发布以 GitHub 实际状态为准。
@@ -86,3 +86,7 @@ docs/images/                     # 示例实际 PPTX 的渲染预览
 ```
 
 组织方式参考了 [Simthesizer](https://github.com/casys-kaist/simthesizer) 的阶段分工和可追溯思路；另研究了 [ppt-master](https://github.com/zishano/ppt-master) 的流程与导出边界。示例事实各自保留原始来源与定位，见 [research.facts.json](examples/ai-compute/research.facts.json)。
+
+## 生成项目的统一位置
+
+后续生成的 PPT 及其调研、源代码和验证产物统一放入 [`output/<项目名>/`](output/README.md)。当前项目：[AI 集群通信与 Scale-up / Scale-out](output/ai-network-deck/README.md)。

@@ -1,0 +1,127 @@
+[
+  {
+    "page": 1,
+    "title": "AI 集群需要两层互连：域内紧耦合，域间扩规模",
+    "sources": [
+      "S2",
+      "S3",
+      "S8"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 2,
+    "title": "先看通信需求：并行方式决定“谁在何时交换什么”",
+    "sources": [
+      "S5",
+      "S1",
+      "S7"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 3,
+    "title": "同样叫“通信”，集合操作的数据含义并不相同",
+    "sources": [
+      "S1"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 4,
+    "title": "Scale-up：把一个互连域做强，让频繁协同留在域内",
+    "sources": [
+      "S2",
+      "S5"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 5,
+    "title": "Scale-out：把多个计算域连接成更大的 AI 集群",
+    "sources": [
+      "S3",
+      "S8",
+      "S5"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 6,
+    "title": "区别看互连域与通信路径，而不是“快网”和“慢网”",
+    "sources": [
+      "S2",
+      "S3",
+      "S5",
+      "S8"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 7,
+    "title": "两层网络如何合作？用一次跨域梯度求和串起来",
+    "sources": [
+      "S1",
+      "S5"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 8,
+    "title": "落地顺序：先确定通信图，再设计网络与并行组",
+    "sources": [
+      "S5",
+      "S8",
+      "S1"
+    ],
+    "reading_order": "标题 → 主图 → 分层解释 → 结论",
+    "checks": [
+      "source_scope",
+      "topology",
+      "labels",
+      "render"
+    ]
+  }
+]

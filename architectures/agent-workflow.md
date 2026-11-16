@@ -29,3 +29,6 @@ Read [drawing-workflow.md](drawing-workflow.md). The current diagram policy is o
 
 ## Physical-machine branch
 For hardware composition, all four stages apply [physical-machine.zh-CN.md](../references/physical-machine.zh-CN.md): task-design records the same-page whole/detail requirement and illustration permissions; mapping owns component quantities and placement evidence; dev owns coherent static assembly and detail correspondence; validation checks physical/source boundaries, count arithmetic, leader endpoints and actual rendered output.
+
+## Output ownership
+All stage artifacts live together under repository-root `output/<project-name>/` unless the user specifies a different destination. Record that root in task-design and reuse it in mapping, dev and validation. Preserve previous projects/revisions and use project-relative artifact paths.

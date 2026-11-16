@@ -19,3 +19,6 @@ Paths in this section are relative to the package root. Follow architectures/dra
 
 ## Physical-machine composition
 Apply references/physical-machine.zh-CN.md. Produce a coherent left whole-machine assembly and corresponding right detail tiers. Use source-backed static technical illustrations or original hardware imagery as appropriate; native mechanism shapes are not the only allowed implementation. Keep quantity labels/source notes editable where practical and disclose raster limits. Do not invent chassis geometry without authorized, visibly labeled illustration. Avoid dynamic assets unless requested.
+
+## Output root
+The isolated project directory is repository-root `output/<project-name>/`, not a sibling workspace folder or legacy `outputs/`. Keep sources, exports and renders together; resolve script paths from the project directory. Exclude local renderer profiles/caches from Git. User-specified destinations override this default.

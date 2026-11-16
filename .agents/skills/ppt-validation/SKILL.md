@@ -31,3 +31,6 @@ Paths in this section are relative to the package root. Apply the semantic check
 
 ## Physical-machine composition
 Apply the checklist in references/physical-machine.zh-CN.md. Verify that the left assembly reads as one machine, the right tiers match it, component counts and arithmetic agree, leaders land on correct objects, and unknown geometry/counts remain visibly qualified. Check generated chip counts and passive/active board distinctions explicitly. Inspect final PPTX renders and static-media packaging; report file sizes. A plausible illustration is not evidence of the target machine’s real construction.
+
+## Output root
+Keep validation reports and preview artifacts under the same `output/<project-name>/` as the deliverables. Verify artifact links after relocation; do not relabel previous manual checks as newly executed or overwrite them with a package-only rerun.
