@@ -1,0 +1,12 @@
+{
+  "slides": 8,
+  "pptx_sha256": "26b5a81e83b9dfeee7ad31759b213b85141b553ffc5dae4e9b5d7a143bec8bc2",
+  "pdf_sha256": "f418b741b62dc5b8e022e4823cb5a15d32ceece70cb47f17330da33229d24f65",
+  "package": "passed",
+  "text_coverage": "passed",
+  "editability": "native text and diagrams; two original product/architecture illustrations are raster",
+  "static_only": true,
+  "visual_review": "unchecked",
+  "renderer": "LibreOffice; not PowerPoint desktop",
+  "size_bytes": 190355
+}

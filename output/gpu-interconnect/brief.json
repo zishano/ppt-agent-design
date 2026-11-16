@@ -1,0 +1,18 @@
+{
+  "title": "GPU高速互连：NVLink、NVSwitch、UALink与Infinity Fabric",
+  "language": "zh-CN",
+  "aspect": "16:9",
+  "backend": "standalone python-pptx",
+  "pages": 8,
+  "diagram_detail_policy": "diagram-rich",
+  "audience": "技术与产业读者",
+  "scope": "技术层级、真实平台结构、规范版本与带宽口径",
+  "requirements": [
+    "原厂结构为据",
+    "左侧整体右侧详情用于硬件页",
+    "不把标准能力当部署",
+    "可编辑图形文字",
+    "静态小文件"
+  ],
+  "project_root": "output/gpu-interconnect"
+}

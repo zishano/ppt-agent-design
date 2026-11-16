@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S1.txt",
+    "status": "read"
+  },
+  {
+    "id": "S2",
+    "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S2.txt",
+    "status": "read"
+  },
+  {
+    "id": "S3",
+    "url": "https://ualinkconsortium.org/",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S3.txt",
+    "status": "read"
+  },
+  {
+    "id": "S4",
+    "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S4.txt",
+    "status": "read"
+  },
+  {
+    "id": "S5",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi300.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S5.txt",
+    "status": "read"
+  },
+  {
+    "id": "S6",
+    "url": "https://instinct.docs.amd.com/projects/system-acceptance/en/latest/gpus/mi300x.html",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S6.txt",
+    "status": "read"
+  },
+  {
+    "id": "S7",
+    "url": "https://ualinkconsortium.org/specification/",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S7.txt",
+    "status": "read"
+  },
+  {
+    "id": "S8",
+    "url": "https://www.businesswire.com/news/home/20260407620696/en/Ultra-Accelerator-Link-UALink-Consortium-Publishes-Four-Specifications-Defining-In-Network-Compute-Chiplets-Manageability-and-200G-Performance",
+    "accessed": "2026-11-16",
+    "local_excerpt": "research/S8.txt",
+    "status": "read"
+  }
+]

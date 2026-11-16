@@ -1,0 +1,137 @@
+[
+  {
+    "page": 1,
+    "title": "四个名字，三个层级：链路、交换组件与互连架构",
+    "sources": [
+      "S1",
+      "S5",
+      "S7"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 2,
+    "title": "NVLink 负责 GPU 间传输，NVSwitch 组织交换式互连",
+    "sources": [
+      "S1"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 3,
+    "title": "GB200 NVL72：把 NVLink 域扩展到一整柜 72 个 GPU",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 4,
+    "title": "UALink：开放的 Scale-up 互连规范，不是一台交换机",
+    "sources": [
+      "S7",
+      "S8"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 5,
+    "title": "Infinity Fabric：既连接芯粒，也可连接多个 GPU",
+    "sources": [
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 6,
+    "title": "横向比较先对齐对象：不要把链路、芯片与架构混排",
+    "sources": [
+      "S1",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 7,
+    "title": "带宽数字先看口径：per GPU、per link 与 per lane 不同",
+    "sources": [
+      "S1",
+      "S4",
+      "S5",
+      "S7"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  },
+  {
+    "page": 8,
+    "title": "读懂一套 GPU 互连，依次回答这四个问题",
+    "sources": [
+      "S1",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "reading_order": "整体结构 → 分层详情 → 适用边界",
+    "checks": [
+      "facts",
+      "component_relations",
+      "counts",
+      "labels",
+      "render"
+    ]
+  }
+]

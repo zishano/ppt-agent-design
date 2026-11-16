@@ -23,3 +23,5 @@ output/<项目名>/
 ## 当前项目
 
 - [AI 集群通信与 Scale-up / Scale-out](ai-network-deck/README.md)：8 页中文、可编辑拓扑与通信示意。
+
+- [GPU 高速互连：NVLink、NVSwitch、UALink 与 Infinity Fabric](gpu-interconnect/README.md)：8 页，技术层级、真实平台结构与带宽口径。

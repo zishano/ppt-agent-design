@@ -1,0 +1,135 @@
+[
+  {
+    "id": "C1",
+    "claim": "NVLink提供GPU互连；NVLink Switch连接多个NVLink以支持GPU间交换通信",
+    "sources": [
+      "S1"
+    ],
+    "pages": [
+      1,
+      2,
+      3,
+      6,
+      8
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C2",
+    "claim": "GB200 NVL72包括72 Blackwell GPU和36 Grace CPU，形成72-GPU NVLink域",
+    "sources": [
+      "S2"
+    ],
+    "pages": [
+      3
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C3",
+    "claim": "当前NVLink表按GPU列出第四/五/六代900/1800/3000 GB/s，第六代为初步规格",
+    "sources": [
+      "S1"
+    ],
+    "pages": [
+      3,
+      7
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C4",
+    "claim": "UALink 200G 1.0定义每lane 200G、最多1024加速器的Scale-up规范能力",
+    "sources": [
+      "S7"
+    ],
+    "pages": [
+      4
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C5",
+    "claim": "当前规范目录列出Common2.0、200G DLPL2.0、128G DLPL1.0、Chiplet1.01、Manageability1.0",
+    "sources": [
+      "S7"
+    ],
+    "pages": [
+      4
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C6",
+    "claim": "Common2.0引入In-Network Compute；Chiplet1.01列示UCIe3.0兼容",
+    "sources": [
+      "S7"
+    ],
+    "pages": [
+      4
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C7",
+    "claim": "MI300X平台使用8 OAM的UBB，全互连；每GPU使用7条GPU间IF链路",
+    "sources": [
+      "S5",
+      "S6"
+    ],
+    "pages": [
+      5,
+      7
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C8",
+    "claim": "MI300X有8XCD，MI300系列结构说明有4IOD、8HBM堆栈",
+    "sources": [
+      "S5"
+    ],
+    "pages": [
+      5
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C9",
+    "claim": "MI300X产品页列8条IF链路、单link峰值128GB/s",
+    "sources": [
+      "S4"
+    ],
+    "pages": [
+      7
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C10",
+    "claim": "MI300X节点图黄线为PCIe、红线GPU间IF、浅蓝CPU间IF",
+    "sources": [
+      "S5"
+    ],
+    "pages": [
+      5
+    ],
+    "kind": "fact"
+  },
+  {
+    "id": "C11",
+    "claim": "标准能力不能等同具体设备部署能力；不同聚合口径不能直接比较",
+    "sources": [
+      "S1",
+      "S4",
+      "S7"
+    ],
+    "pages": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "kind": "interpretation"
+  }
+]
