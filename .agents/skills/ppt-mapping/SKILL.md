@@ -26,3 +26,6 @@ Before dev, check every data-bearing element has real data and every required cl
 ## Diagram-rich implementation
 
 Paths in this section are relative to the package root. Read references/diagram-rich.zh-CN.md. Map each page to inputs, subprocesses, state owners, dependency types, outputs and applicable feedback/exception paths. Record the purpose and source of each relation before coordinates. Expand the main black box one level; no node/edge count can substitute for explanatory coverage.
+
+## Physical-machine composition
+Apply references/physical-machine.zh-CN.md. Map parent/component IDs, per-unit and system quantities, derivations, placement/orientation evidence, connection types, source/model scope and unknowns. Map each left whole-machine element to a numbered right detail tier on the same page. Separate actual target hardware, reported design, reference platform and authorized illustrative geometry.

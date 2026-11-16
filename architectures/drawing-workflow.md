@@ -47,3 +47,9 @@ PyMuPDF opens the rendered PDF, extracts text and creates PNG previews. Pillow w
 A semantic error returns to mapping. A position or wrapping defect returns to drawing. Re-export and rerender changed pages; do not reuse verification from an old package hash.
 
 The portable verifier leaves manual checks `unchecked`. It is intentionally not a universal quality validator or a replacement for the four-stage completion contract. See [the executable example](../examples/ai-compute/README.md).
+
+## 6. Physical-machine composition branch
+
+For real machines, cabinets and hardware composition, apply [physical-machine.zh-CN.md](../references/physical-machine.zh-CN.md). The native drawing implementation above describes the AI-compute example, not a restriction on all future diagrams. This branch permits source-backed static hardware imagery, model renders or image generation/editing, embedded through the selected PPT backend with disclosed editability.
+
+Research → component/quantity ledger → one-page whole-machine-left / layered-details-right mapping → static illustration → actual PPTX rendering → factual, assembly, visual and package checks. A whole-machine view must remain a coherent assembly, not scattered components. Do not split overview and details across pages as a substitute for the requested same-page correspondence. Keep quantities, placement evidence, illustrative permissions and reference-platform boundaries explicit.

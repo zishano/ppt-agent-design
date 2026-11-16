@@ -28,3 +28,6 @@ Use investigate/revise/complete/blocked in the round report. Complete requires a
 ## Diagram-rich implementation
 
 Paths in this section are relative to the package root. Apply the semantic checks in references/diagram-rich.zh-CN.md: input provenance, stage order, shared versus request-local state, synchronization, update destinations and outputs. Inspect overview and reading-size actual PPTX renders. The example verifier checks package/text/notes only and deliberately leaves semantic and visual review unchecked; do not treat it as a completion gate on its own.
+
+## Physical-machine composition
+Apply the checklist in references/physical-machine.zh-CN.md. Verify that the left assembly reads as one machine, the right tiers match it, component counts and arithmetic agree, leaders land on correct objects, and unknown geometry/counts remain visibly qualified. Check generated chip counts and passive/active board distinctions explicitly. Inspect final PPTX renders and static-media packaging; report file sizes. A plausible illustration is not evidence of the target machine’s real construction.

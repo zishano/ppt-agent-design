@@ -16,3 +16,6 @@ Read the brief, evidence ledger and deck map. Resolve missing semantics through 
 ## Diagram-rich implementation
 
 Paths in this section are relative to the package root. Follow architectures/drawing-workflow.md and the selected backend adapter. For standalone python-pptx, use native shapes/text/connectors; document manual coordinates, units, font and z-order. Route edges before labels, preserve state ownership and use explicit junctions. Inspect a representative dense page before completing the deck. The AI-compute sample demonstrates the pattern but does not select layouts for other topics.
+
+## Physical-machine composition
+Apply references/physical-machine.zh-CN.md. Produce a coherent left whole-machine assembly and corresponding right detail tiers. Use source-backed static technical illustrations or original hardware imagery as appropriate; native mechanism shapes are not the only allowed implementation. Keep quantity labels/source notes editable where practical and disclose raster limits. Do not invent chassis geometry without authorized, visibly labeled illustration. Avoid dynamic assets unless requested.

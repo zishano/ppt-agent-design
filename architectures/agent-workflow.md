@@ -26,3 +26,6 @@ Evidence/intent errors -> task-design or mapping. Incorrect visual encoding or o
 
 ## Implemented example and drawing policy
 Read [drawing-workflow.md](drawing-workflow.md). The current diagram policy is owned by [diagram-rich.zh-CN.md](../references/diagram-rich.zh-CN.md); the four skills reference it at their owning stages. Canonical sources may be Python drawing code for standalone python-pptx or SVG for the separate ppt-master backend. The current AI-compute example has manually authored coordinates, not an automatic layout solver.
+
+## Physical-machine branch
+For hardware composition, all four stages apply [physical-machine.zh-CN.md](../references/physical-machine.zh-CN.md): task-design records the same-page whole/detail requirement and illustration permissions; mapping owns component quantities and placement evidence; dev owns coherent static assembly and detail correspondence; validation checks physical/source boundaries, count arithmetic, leader endpoints and actual rendered output.

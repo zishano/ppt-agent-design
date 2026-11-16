@@ -14,3 +14,6 @@ description: Define a research presentation contract from a title, supplied mate
 ## Diagram-rich implementation
 
 Paths in this section are relative to the package root. Record diagram_detail_policy=diagram-rich and the required explanatory questions in the brief. Distinguish richer diagram content from extra quantitative data or ornament. Name the objects and internal stages the reader must understand; do not impose the discarded 60-character limit.
+
+## Physical-machine composition
+For machine/rack/equipment composition, read references/physical-machine.zh-CN.md (relative to package root). Record the default same-page left whole-machine / right layered-detail requirement, static illustration style, hardware scope and any permission to depict unverified geometry. Do not assume “animated style” requests motion.

@@ -22,3 +22,6 @@ Respond in the user's language. Resolve nonconsequential design choices autonomo
 For mechanism-heavy or reference-infographic presentations, read [references/diagram-rich.zh-CN.md](references/diagram-rich.zh-CN.md) before planning. It owns the current diagram-detail policy and supersedes the earlier experiment's 60-character limit. Expand inputs, subprocesses, state ownership, dependencies and outputs as applicable; do not equate fewer words with less information.
 
 Read [architectures/drawing-workflow.md](architectures/drawing-workflow.md) for the concrete A-example workflow. Select one backend explicitly: standalone python-pptx or the separate ppt-master workflow. The runnable example is topic-specific, not a generic auto-layout engine.
+
+## Physical machines and cabinets
+For machine, rack, server, board or equipment composition diagrams, read [references/physical-machine.zh-CN.md](references/physical-machine.zh-CN.md). Default to one page with a coherent whole-machine view on the left and numbered, vertically layered component details on the right. Research actual hardware first; distinguish verified hardware, reported designs, reference platforms and authorized illustrative geometry. “Animated style” means a static illustration unless motion is explicitly requested.
