@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "pptx_sha256": "37e53a94bae82468abcf7c7e87461eb78fe10ea1779c62f71d1716a4497a1a98",
+  "pdf_sha256": "40bdbaade244fc7251736bc737729ad055d1fbc23e2ddf78a4ce98316257a6a1",
+  "visual_review": "Reviewed six-page overview and dense pages 3/4 at reading scale; shortened wrapping labels and removed a hidden duplicate memory box.",
+  "semantic_review": "Reused inspected official sources with manifest hashes; checked stack dependencies, RDMA direction, hop-local PFC and end-to-end CNP feedback.",
+  "limits": [
+    "LibreOffice rendering inspected; PowerPoint desktop not tested",
+    "Logical illustrations are not measured performance or product wiring"
+  ],
+  "artifacts": [
+    "renders/contact.jpg",
+    "renders/03.png",
+    "renders/04.png"
+  ]
+}

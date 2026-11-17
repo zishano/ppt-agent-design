@@ -1,0 +1,65 @@
+[
+  {
+    "id": "S1",
+    "url": "https://ethernetalliance.org/technology/ethernet-roadmap/",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S1.txt",
+    "status": "read"
+  },
+  {
+    "id": "S2",
+    "url": "https://infinibandta.org/about-infiniband/",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S2.txt",
+    "status": "read"
+  },
+  {
+    "id": "S3",
+    "url": "https://infinibandta.org/roce-and-infiniband-which-should-i-choose/",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S3.txt",
+    "status": "read"
+  },
+  {
+    "id": "S4",
+    "url": "https://ultraethernet.org/",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S4.txt",
+    "status": "read"
+  },
+  {
+    "id": "S6",
+    "url": "https://networking-docs.nvidia.com/mlnxenswum/24102180lts/rdma-over-converged-ethernet-roce",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S6.txt",
+    "status": "read"
+  },
+  {
+    "id": "S8",
+    "url": "https://www.ieee802.org/3/",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S8.txt",
+    "status": "read"
+  },
+  {
+    "id": "S10",
+    "url": "https://ultraethernet.org/wp-content/uploads/sites/20/2026/10/20261026-3711-UE-Specification-1.1-release-notes.pdf",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S10.txt",
+    "status": "read"
+  },
+  {
+    "id": "S11",
+    "url": "https://ultraethernet.org/wp-content/uploads/sites/20/2026/10/UE-Specification-1.1.pdf",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S11.txt",
+    "status": "read"
+  },
+  {
+    "id": "S14",
+    "url": "https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-59/Layer-1-and-Switch-Ports/Quality-of-Service/RDMA-over-Converged-Ethernet-RoCE/",
+    "accessed": "2026-11-17",
+    "local_excerpt": "research/S14.txt",
+    "status": "read"
+  }
+]

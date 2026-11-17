@@ -25,3 +25,5 @@ output/<项目名>/
 - [AI 集群通信与 Scale-up / Scale-out](ai-network-deck/README.md)：8 页中文、可编辑拓扑与通信示意。
 
 - [GPU 高速互连：NVLink、NVSwitch、UALink 与 Infinity Fabric](gpu-interconnect/README.md)：8 页，技术层级、真实平台结构与带宽口径。
+
+- [数据中心网络：Ethernet、InfiniBand、RoCE 与 Ultra Ethernet](datacenter-network/README.md)：8 页，协议层级、RDMA 通路、拥塞反馈与 UE 1.1。

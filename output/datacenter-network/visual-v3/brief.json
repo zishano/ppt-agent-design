@@ -1,0 +1,17 @@
+{
+  "title": "数据中心网络：Ethernet、InfiniBand、RoCE与Ultra Ethernet",
+  "revision": "visual-v3",
+  "pages": 6,
+  "aspect": "16:9",
+  "visual_policy": "机制插画主导；用数据块、内存剖面、队列、反馈回路与静态分镜解释机制，文字辅助",
+  "backend": "image generation assets + python-pptx packaging",
+  "editability": "主图为栅格插画；来源页脚可编辑",
+  "source_policy": "复用同主题已核验官方资料",
+  "requirements": [
+    "保留图形信息密度",
+    "数据与控制路径分色",
+    "逐跳与端到端反馈明确",
+    "设备不冒充真实型号",
+    "静态媒体、轻量文件"
+  ]
+}

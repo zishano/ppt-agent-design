@@ -1,0 +1,12 @@
+{
+  "slides": 8,
+  "pptx_sha256": "d9f36d7469f2bbaee272b438e8a313f670e9adc2e9ee1f9a3b7e4ba6298075ca",
+  "pdf_sha256": "e62d24dcc39456724ec652a208267b696234acf05ebdd6520e5b27df404d5ded",
+  "package": "passed",
+  "text_coverage": "passed",
+  "editability": "native text and diagrams",
+  "static_only": true,
+  "visual_review": "unchecked",
+  "renderer": "LibreOffice; not PowerPoint desktop",
+  "size_bytes": 71147
+}

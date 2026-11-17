@@ -1,0 +1,120 @@
+[
+  {
+    "page": 1,
+    "title": "技术地图：先分清基础网络、RDMA 传输与完整互连体系",
+    "sources": [
+      "S2",
+      "S6",
+      "S8",
+      "S11",
+      "S14"
+    ],
+    "claim_ids": [
+      "C1",
+      "C4"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 2,
+    "title": "Ethernet + RDMA：同一拓扑下，数据路径与控制路径不同",
+    "sources": [
+      "S2",
+      "S6",
+      "S11",
+      "S14"
+    ],
+    "claim_ids": [
+      "C2",
+      "C10"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 3,
+    "title": "InfiniBand：把 RDMA、交换 Fabric 与流控作为一套系统理解",
+    "sources": [
+      "S2",
+      "S3",
+      "S11"
+    ],
+    "claim_ids": [
+      "C3"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 4,
+    "title": "RoCEv2：一页读懂封装、反馈回路与部署条件",
+    "sources": [
+      "S6",
+      "S14"
+    ],
+    "claim_ids": [
+      "C4",
+      "C5",
+      "C6",
+      "C9"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 5,
+    "title": "Ultra Ethernet：从 UET 传输到 UE 1.1 的分层增强",
+    "sources": [
+      "S4",
+      "S10",
+      "S11"
+    ],
+    "claim_ids": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 6,
+    "title": "对照与排障：按技术对象选型，按通信路径验证",
+    "sources": [
+      "S2",
+      "S6",
+      "S10",
+      "S11",
+      "S14"
+    ],
+    "claim_ids": [
+      "C1",
+      "C4",
+      "C9",
+      "C10"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R3",
+      "R4",
+      "R5"
+    ]
+  }
+]

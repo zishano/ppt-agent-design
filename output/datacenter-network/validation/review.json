@@ -1,0 +1,14 @@
+{
+  "pptx_sha256": "d9f36d7469f2bbaee272b438e8a313f670e9adc2e9ee1f9a3b7e4ba6298075ca",
+  "pdf_sha256": "e62d24dcc39456724ec652a208267b696234acf05ebdd6520e5b27df404d5ded",
+  "status": "complete",
+  "semantic_review": "Reviewed cited official sources, RoCE/UE scope and distinct feedback mechanisms; corrected receive-side RDMA path and hop-local feedback endpoints.",
+  "visual_review": "Reviewed all eight pages in contact.jpg, plus pages 03/05/06 at reading resolution. No unresolved blocking clipping or label intersections.",
+  "artifacts": [
+    "renders/contact.jpg",
+    "renders/03.png",
+    "renders/05.png",
+    "renders/06.png"
+  ],
+  "limit": "LibreOffice rendering inspected; PowerPoint desktop playback not tested. No performance benchmark performed."
+}

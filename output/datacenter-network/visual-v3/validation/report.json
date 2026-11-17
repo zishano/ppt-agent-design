@@ -1,0 +1,22 @@
+{
+  "pages": 6,
+  "size_bytes": 3949166,
+  "pptx_sha256": "2db62849624e41c74c744fa5c70228a707b61192bdb4d2e6b7bbc2957943e185",
+  "pdf_sha256": "d4275a00febec73d06bd3c061e01f77928bbac443a64a3ef698c9405adb8e336",
+  "package": "passed",
+  "render": "LibreOffice PDF produced",
+  "visual": "reviewed: all final pages in rendered contact sheet; source images reviewed at full output scale",
+  "editability": "raster illustration + editable source footer; not native component editing",
+  "static_only": true,
+  "semantic_review": [
+    "RDMA Write data path bypasses CPU execution but CPU controls registration and submission",
+    "IB feedback is hop-local; RoCE CNP end-to-end and PFC hop-local",
+    "UET layer distinguished from Ultra Ethernet architecture after image correction",
+    "Device geometry, queue capacities and priorities are explicitly illustrative",
+    "UE capability/arrival/completion example scoped by profile"
+  ],
+  "limitations": [
+    "Raster image labels cannot be validated by PPT text extraction; manually reviewed",
+    "LibreOffice rendering inspected, no PowerPoint desktop test"
+  ]
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "page": 1,
+    "title": "四个名字不是四张平行的网：先把技术层级放对",
+    "sources": [
+      "S2",
+      "S6",
+      "S8",
+      "S11"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C1",
+      "C4",
+      "C8"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 2,
+    "title": "整体网络相似，端点能力和传输机制决定实际行为",
+    "sources": [
+      "S2",
+      "S6",
+      "S11",
+      "S14"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C1",
+      "C10"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 3,
+    "title": "RDMA 优化的是数据通路：CPU 仍负责准备和控制",
+    "sources": [
+      "S2",
+      "S6",
+      "S11"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C2"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 4,
+    "title": "InfiniBand：RDMA、交换网络与逐跳流控协同工作",
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C3"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 5,
+    "title": "RoCEv2：在 IP / UDP 上承载 RDMA，拥塞控制分两层",
+    "sources": [
+      "S6",
+      "S14"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 6,
+    "title": "Ultra Ethernet：以 UET 重构 AI/HPC 的以太网传输",
+    "sources": [
+      "S4",
+      "S10",
+      "S11"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C7",
+      "C8"
+    ],
+    "requirement_ids": [
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 7,
+    "title": "一张表对齐边界：网络基础、独立体系与 RDMA 路径",
+    "sources": [
+      "S2",
+      "S6",
+      "S10",
+      "S11",
+      "S14"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C1",
+      "C4",
+      "C9",
+      "C10"
+    ],
+    "requirement_ids": [
+      "R1",
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "page": 8,
+    "title": "选型从应用通信图出发，再验证端点、网络与运维",
+    "sources": [
+      "S2",
+      "S6",
+      "S11",
+      "S14"
+    ],
+    "reading_order": "整体关系 → 机制展开 → 边界",
+    "checks": [
+      "facts",
+      "protocol_roles",
+      "arrow_endpoints",
+      "text",
+      "actual_render"
+    ],
+    "claim_ids": [
+      "C10"
+    ],
+    "requirement_ids": [
+      "R4",
+      "R5"
+    ]
+  }
+]

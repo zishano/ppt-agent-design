@@ -1,0 +1,62 @@
+[
+  {
+    "page": 1,
+    "title": "四者关系",
+    "source_ids": [
+      "S2",
+      "S6",
+      "S8",
+      "S11"
+    ],
+    "asset": "assets/01.jpg"
+  },
+  {
+    "page": 2,
+    "title": "RDMA数据路径",
+    "source_ids": [
+      "S2",
+      "S6",
+      "S11"
+    ],
+    "asset": "assets/02.jpg"
+  },
+  {
+    "page": 3,
+    "title": "InfiniBand逐跳流控",
+    "source_ids": [
+      "S2",
+      "S3"
+    ],
+    "asset": "assets/03.jpg"
+  },
+  {
+    "page": 4,
+    "title": "RoCE双反馈",
+    "source_ids": [
+      "S6",
+      "S14"
+    ],
+    "asset": "assets/04.jpg"
+  },
+  {
+    "page": 5,
+    "title": "UET多路径与完成",
+    "source_ids": [
+      "S4",
+      "S10",
+      "S11"
+    ],
+    "asset": "assets/05.jpg"
+  },
+  {
+    "page": 6,
+    "title": "图解对照",
+    "source_ids": [
+      "S2",
+      "S6",
+      "S11",
+      "S14"
+    ],
+    "asset": "assets/06.jpg"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "shared_sources": "../sources.json",
+  "research": "../research",
+  "source_sha256": "ae2d133ab466cb4c6825ebef2a424f0a7c0372c73eb3ad3595f4367005f6ea4f",
+  "claims_sha256": "4459134c531fadf25caa1da17e39043c3c2112c7925547bdf8d9aa584fdbf1d6"
+}

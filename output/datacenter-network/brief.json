@@ -1,0 +1,80 @@
+{
+  "title": "数据中心网络：Ethernet、InfiniBand、RoCE与Ultra Ethernet",
+  "language": "zh-CN",
+  "aspect": "16:9",
+  "backend": "standalone python-pptx",
+  "pages": 8,
+  "project_root": "output/datacenter-network",
+  "diagram_detail_policy": "diagram-rich",
+  "audience": "技术与产业读者",
+  "source_policy": "优先标准组织及官方技术资料，核查日期2026-11-17",
+  "requirements": [
+    {
+      "id": "R1",
+      "text": "区分四者层级、依赖和兼容边界",
+      "pages": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "R2",
+      "text": "整体拓扑与局部机制图对应",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R3",
+      "text": "核查UE现行版本与能力范围",
+      "pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "R4",
+      "text": "源图与文字可编辑，静态轻量交付",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "R5",
+      "text": "提供来源、代码与实际渲染检查",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "exclusions": [
+    "不以规范目标冒充已部署性能",
+    "不编造硬件尺寸或布线",
+    "不制作动画视频"
+  ],
+  "output_types": [
+    "PPTX",
+    "PDF",
+    "source ledger",
+    "renders",
+    "validation"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "数据中心网络：Ethernet、InfiniBand、RoCE与Ultra Ethernet",
+  "language": "zh-CN",
+  "aspect": "16:9",
+  "backend": "standalone python-pptx",
+  "pages": 6,
+  "project_root": "output/datacenter-network",
+  "diagram_detail_policy": "diagram-rich",
+  "audience": "技术与产业读者",
+  "source_policy": "优先标准组织及官方技术资料，核查日期2026-11-17",
+  "requirements": [
+    {
+      "id": "R1",
+      "text": "各技术定义、层级及比较",
+      "pages": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": "R2",
+      "text": "完整机制、术语、条件与误区同页解释",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "R3",
+      "text": "UE1.1版本与能力范围",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R4",
+      "text": "图形与文字原生可编辑，静态轻量",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R5",
+      "text": "来源可追溯并审查实际渲染",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "exclusions": [
+    "不以规范目标冒充已部署性能",
+    "不编造硬件尺寸或布线",
+    "不制作动画视频"
+  ],
+  "output_types": [
+    "PPTX",
+    "PDF",
+    "source ledger",
+    "renders",
+    "validation"
+  ],
+  "revision": "dense-v2",
+  "reading_context": "16:9 技术讲解及桌面阅读，主讲解字号18pt，短标签15pt",
+  "density_contract": "每页同时解释定义/定位、机制、术语、条件及常见误区；用多层图和对照组织信息"
+}
