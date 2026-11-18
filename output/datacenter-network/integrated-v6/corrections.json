@@ -1,0 +1,22 @@
+[
+  [
+    "01",
+    "Preserve this exact integrated infographic design, Chinese texts, containers, hardware detail and composition. Make ONLY these factual corrections: Remove entirely the green feedback curve and its text '链路状态反馈（控制）' from the upper Ethernet illustration; ordinary Ethernet must not be depicted with universal end-to-end feedback. Change upper Ethernet data arrows and cubes to purple like other KV data. In the independent InfiniBand area remove the bottom green feedback curve and '链路流控反馈' label entirely; this page introduces relationship only, detailed hop feedback is explained later. Keep IB forward route but make it PURPLE, directed from HCA A through IB switch toward HCA B. Keep relationship nesting and the bottom conclusions unchanged. No new details."
+  ],
+  [
+    "03",
+    "Preserve this exact infographic and all correct local flow-control arrows and buffer state panels. Remove ONLY the large central 'CPU（控制面）' badge and all its four blue branches to HCAs and switches. This slide is about link-local flow control and must not imply a single CPU directly controls every device. Remove the blue CPU-control entry from the top legend, leave purple KV data and teal feedback entries. Rebalance the freed top-center space subtly without adding new content. Preserve all Chinese text and detailed illustration style."
+  ],
+  [
+    "05",
+    "Preserve exact slide composition, rich cutaways, labels, state panels and three paths. Correct two arrow details: (1) ALL three outbound purple data paths must originate from one visible fan-out junction directly at the sending UET NIC / 发送缓冲队列, and ALL three inbound paths must merge at the receiving UET NIC before reaching the illustrated receive/write stages. GPU memory must connect down to its NIC; no path may bypass either NIC and connect directly GPU-memory to network. Reroute the top path accordingly with visible NIC fanout/merge links. (2) Remove the purple data cubes sitting on the green bottom feedback line. That teal path carries control feedback, not KV payload; keep it clean or use small teal control markers. Keep every other element and Chinese label unchanged."
+  ],
+  [
+    "06",
+    "Preserve exact four-row illustrated comparison table and bottom nesting diagram. Correct the RoCE row green feedback: replace its label 'ECN 反馈（拥塞指示）' with 'CNP：接收端反馈至发送端'. Draw a single reverse arrow starting at RIGHT RNIC going under row to LEFT RNIC, arrowhead ONLY at left receiving this feedback, not at both ends. Keep ECN marking on forward data packet. In InfiniBand row recolor forward data arrows PURPLE to match the series and keep teal LOCAL reverse arrows unchanged. Do not change any table text, columns, relation diagram or other imagery."
+  ],
+  [
+    "05",
+    "Make exactly ONE tiny correction to this otherwise finished technical slide. In the RIGHT server GPU B, between the top 'GPU 显存' box (K1 K2 K3) and the lower '到达顺序' box, there is a large purple DOWNWARD arrow. REMOVE that arrow entirely, leave clean background in that small gap. It falsely implies the receiving GPU sends data back into the receive queue. Do NOT add a replacement arrow. Preserve EVERYTHING else pixel-faithfully including all labels, paths, NIC fanout junctions, feedback arrows, title, bottom panels and style. Only remove that one downward purple arrow below the right GPU memory box."
+  ]
+]

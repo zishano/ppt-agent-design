@@ -1,0 +1,14 @@
+{
+  "slides": 6,
+  "pdf_pages": 6,
+  "pptx_bytes": 4275290,
+  "pptx_sha256": "e6c691690be01080e134e24093741a00a65dd123268e73e53474d5198a04de9f",
+  "zip_error": null,
+  "media_count": 6,
+  "dynamic_media": [],
+  "source_notes": true,
+  "editability": "raster main illustrations including text and paths; native source footer/notes",
+  "render_engine": "LibreOffice",
+  "text_check_limit": "image labels require visual review; PDF extraction does not validate raster text",
+  "visual_review": "see separate visual-review.json"
+}

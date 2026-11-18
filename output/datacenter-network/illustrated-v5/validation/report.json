@@ -1,0 +1,11 @@
+{
+  "slides": 6,
+  "pdf_pages": 6,
+  "missing_text": [],
+  "pptx_bytes": 1715317,
+  "sha256": "f24ebb5cc503c202422757f4e47ea37f7bd15f7f8c7aca40524e20c9207aa2f0",
+  "render_engine": "LibreOffice",
+  "visual_review": "已检查实际PDF六页总览及RoCE阅读尺度：概念层级、统一设备、路径和反馈、末页对照清晰；未见文字裁切。修订了原先可能被读作共享总线的主路径，改为逐设备串联段。",
+  "static_media": true,
+  "editability": "native text, mechanism connectors, relationship diagram and table; raster device scene"
+}

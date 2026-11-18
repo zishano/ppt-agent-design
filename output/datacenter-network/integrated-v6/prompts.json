@@ -1,0 +1,71 @@
+{
+  "base": "Create a finished 16:9 landscape Chinese PPT slide as ONE integrated static technical infographic, matching the attached original reference's visual style closely: bold navy Chinese title, white background, rich isometric cutaway hardware, detailed green circuit boards, silver chassis, thick colored arrow paths carrying small 3D data cubes, integrated queue cutaways, compact beveled labels, colored rounded panels and purposeful detailed insets. It must look like the referenced full illustrated mechanism slide, NOT two generic photos with native boxes below; NOT a sparse flat diagram. Rich explanatory content with crisp readable Chinese. Preserve visual hierarchy, ample separation around labels. Static illustrated scene, not real product specification. Do not add actual model names, performance values, vendor logos, exact port counts or claimed BOM. Label conceptual geometry. All Chinese must be accurately rendered. Common semantic palette for this new series: purple arrows/cubes = KV data, teal-green reverse arrows = feedback, blue thin arrows = CPU setup/control, orange/red = congestion/paused state. Technology container colors may differ but data cube stays purple. Use consistent GPU server A at left, GPU server B at right when showing transfer; green PCB endpoint adapters and silver cutaway switches. Title at top. No source URLs or citations in image, those will be added outside image. Small bottom caption \"设备、路径与分块为机制示意\".",
+  "pages": [
+    {
+      "n": "01",
+      "title": "先分清两种网络体系，再看以太网上的增强",
+      "sources": [
+        "S2",
+        "S6",
+        "S8",
+        "S11"
+      ],
+      "ref": "01",
+      "prompt": "Main body must explain CONTAINMENT, NOT three parallel protocol paths. Large blue rounded Ethernet area occupying left two-thirds, independent orange InfiniBand area on right third. Title exactly \"先分清两种网络体系，再看以太网上的增强\". Inside Ethernet container headline \"Ethernet｜基础互联\", subline \"连接设备，承载上层通信\"; small rich NIC-switch-NIC isometric hardware scene supports this. BELOW within same container two nested side-by-side subareas: green \"RoCE｜在以太网上实现 RDMA\", illustrative green RNIC and purple data cubes moving into a memory region, short label \"网卡搬运已授权内存\"; purple \"Ultra Ethernet｜AI / HPC 以太网增强规范\", inside it a distinctly nested smaller panel labeled \"UET｜其中的传输协议\" and miniature multipath switches plus queue/feedback icon, short label \"增强传输与拥塞管理\". Right independent InfiniBand area title \"InfiniBand｜独立网络体系\", HCA → IB switch cutaway with queue → HCA, small teal reverse link feedback; labels \"RDMA + 交换互连 + 链路流控\". Bottom integrated takeaway banner \"RoCE 与 UET 是不同传输路线；UET 只是 Ultra Ethernet 的一部分\". A small running-example seed strip at very bottom \"后续案例：同一块 KV Cache，从 GPU A 传到 GPU B\" with small purple KV cube. Main visual is nested relationship not TCP/IP stack. Do not include UDP/IP or TCP on page 1. Keep hardware smaller than relationship containers but still detailed."
+    },
+    {
+      "n": "02",
+      "title": "CPU 做准备，网卡搬运 KV Cache",
+      "sources": [
+        "S2",
+        "S6",
+        "S11"
+      ],
+      "ref": "02",
+      "prompt": "Title \"CPU 做准备，网卡搬运 KV Cache\". Main hero 60% of slide: same two large 3D cutaway GPU servers A left and B right; each has labeled CPU, distinct GPU board and GPU memory, endpoint NIC, visible circuits. Between them two tiny network switches on single sequential path. ONE coherent purple KV data flow from left GPU memory → left RDMA NIC → network → right RDMA NIC → right GPU memory; place purple cubes marked K1 K2 K3 along the data path, same purple not three random colors. Blue fine control arrows from CPU to authorized memory and NIC, labeled \"注册内存 / 授权\", \"提交操作\"; right CPU resource preparation similarly. Top below title a compact illustrated ribbon: \"① 准备资源\" CPU/key → \"② 网卡搬运\" NIC/data cubes → \"③ 完成后交接\" memory/check. NIC generic label \"RDMA 端点\"; center network caption \"端点与网络按 IB / RoCE / UET 匹配\". Bottom three image-rich zooms visually connected to hero: authorized GPU memory region with lock and data cubes label \"只访问授权区域\"; CPU and NIC control/data split diagram label \"CPU 仍参与准备与完成\"; GPU peer path and compatibility checks label \"GPU 显存直达需平台支持\". Short in-image assumption \"假设内存已注册授权，软硬件支持 GPU 直达\". Avoid DDR DIMM shown as GPU memory; GPU memory chips belong on GPU board. Text supports detailed image."
+    },
+    {
+      "n": "03",
+      "title": "IB：下一跳可用缓冲，决定这一跳能发多少",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "ref": "03",
+      "prompt": "Title \"IB：下一跳可用缓冲，决定这一跳能发多少\". Subtitle small \"同一块 KV Cache：GPU A → GPU B\". Upper main hero: left small cutaway GPU server A with enlarged HCA emerging from NIC slot; center two large isometric cutaway IB switches A/B revealing INPUT BUFFERS with purple occupied cubes and white free slots; right same server B / HCA. Purple forward KV data arrows A HCA → switch A → switch B → B HCA. Distinct teal reverse LOCAL feedback U-shaped arrows for each adjacent pair, each labeled \"可用空间反馈\"; NEVER one end-to-end credit loop. Labels \"HCA A\", \"IB 交换机 A\", \"IB 交换机 B\", \"HCA B\". Main lower ~35% three detailed progressive cutaway queue diagrams connected left to right: ① \"有空间：继续发送\" few purple cubes, several free slots, incoming data; ② \"空间紧张：限制上游\" nearly full queue, pause symbol on upstream link; ③ \"空间释放：恢复发送\" outgoing cubes release slots, resumed incoming path. Do not print numeric slot totals. Right slim column 2 compact illustrated constraints: queue+clock \"无损不等于无排队\"; IB credit symbol vs Ethernet PFC icon \"IB 流控 ≠ Ethernet PFC\". Include \"缓冲格数仅为示意\" small. Dense integrated hardware+states, high fidelity to provided reference."
+    },
+    {
+      "n": "04",
+      "title": "RoCEv2：接收端反馈拥塞，发送端降低速率",
+      "sources": [
+        "S6",
+        "S14"
+      ],
+      "ref": "04",
+      "prompt": "Title \"RoCEv2：接收端反馈拥塞，发送端降低速率\". Small subtitle \"同一块 KV Cache：GPU A → GPU B\". Below title compact encapsulation strip \"Ethernet | IP | UDP 4791 | RDMA 传输 | KV 数据\"; subline \"UDP 是封装；可靠交付由 RDMA 传输负责\". Main rich isometric scene: server A ghosted behind enlarged sending RNIC at left, cutaway Ethernet switch A middle-left with sparse queue, switch B middle-right with nearly full orange queue, server B ghosted behind enlarged receiving RNIC at right. All forward KV arrows purple with K1/K2 cubes; after congested B, data packet marked ECN goes to receiver. Green long return path from receiving RNIC back to sending RNIC labeled \"CNP：接收端 → 发送端\"; sending rate gauge shows decrease and label \"降速\". Orange short local reverse path from switch B back to switch A labeled \"PFC：按配置暂停指定优先级\". Bottom left integrated diagram 4 pictorial steps \"队列拥塞 → ECN 标记 → 接收端 CNP → 源端调速\", queue/cube/NIC/gauge not paragraphs. Bottom right smaller local switch cutaway with 2 labeled traffic lanes \"选定优先级：暂停\", \"其他优先级：继续\" and label \"PFC 不能替代端到端拥塞控制\". No numeric priority IDs. Bottom short note \"有损 / 无损部署按端点与网络能力配置\". Do not depict PFC as mandatory."
+    },
+    {
+      "n": "05",
+      "title": "UET：多路径分发，端点协同完成交付",
+      "sources": [
+        "S10",
+        "S11"
+      ],
+      "ref": "05",
+      "prompt": "Title \"UET：多路径分发，端点协同完成交付\". Subtitle \"Ultra Ethernet 是增强规范；UET 是其中的传输协议\". Large central integrated detailed hardware infographic: same sender GPU A and enlarged UET NIC on left; 3 parallel isometric switch paths middle; receiver GPU B and UET NIC on right with GPU memory detail. Purple K1/K2/K3 blocks all same purple, each numbered, traverse separate purple routes labeled \"路径 1 / 2 / 3\". Sender illustrated GPU memory carries a KV block decomposed into K1 K2 K3; rate gauge under sender. Receiver shows possible arrival \"K1 K3 K2\", then arrow to GPU memory slots labeled \"按目标位置写入\" shown correct K1 K2 K3 positions, then completion check \"满足完成条件后交接\". This is one supported scenario, small qualification \"乱序处理与完成语义依 profile\". Teal feedback loop from receiving UET NIC to sending rate control along bottom labelled \"确认 / 拥塞反馈\". Right inset strip or lower three rich miniature mechanisms: missing K2 ghost+resend arrow label \"丢包：重传恢复\"; queue and gauge \"拥塞：调节发送\"; key and check \"权限与完成条件\". Small bottom distinction \"UE 1.1：规范能力不等于所有产品已实现\". Do not show an actual product model, bandwidth, buffer size or claim all profiles allow same out-of-order behavior. No huge prose panels. Dense integrated scene with main path and supporting state insets."
+    },
+    {
+      "n": "06",
+      "title": "带走三问：它是什么，基于什么，解决什么",
+      "sources": [
+        "S2",
+        "S6",
+        "S8",
+        "S11",
+        "S14"
+      ],
+      "ref": "06",
+      "prompt": "Title \"带走三问：它是什么，基于什么，解决什么\". A beautifully integrated technical illustrated COMPARISON TABLE is the main subject, not four repeated hardware network scenes. Four rows with colored title badges Ethernet blue, InfiniBand orange, RoCE green, Ultra Ethernet purple. Columns exactly \"名称\", \"它是什么\", \"基于什么网络\", \"解决什么问题\". Content exact: Ethernet / \"基础网络体系\" / \"Ethernet\" / \"设备互联与帧传输\"; InfiniBand / \"完整互连体系\" / \"IB 原生网络\" / \"RDMA、交换、逐跳流控协同\"; RoCE / \"以太网上的 RDMA\" / \"Ethernet；v2 用 IP / UDP\" / \"网卡直接搬运授权内存\"; Ultra Ethernet / \"AI / HPC 增强规范\" / \"Ethernet\" / \"增强传输与拥塞管理；UET 是其传输协议\". Integrate a small 3D mechanism illustration WITHIN each final cell: Ethernet NIC+frame+switch; IB HCA plus queue plus short feedback; RoCE memory-to-RNIC plus ECN packet; UET splitting cubes, queue and check. Keep text clearly readable with clean grid, no small paragraphs. Bottom integrated relationship mini-diagram: big Ethernet base containing RoCE and Ultra Ethernet, UET nested within Ultra Ethernet; separate InfiniBand independent block. Very bottom takeaway banner \"先选网络体系，再核对端点、传输协议和软件支持\". Small note \"规范能力、产品实现与部署配置需分别核对\". Same polished navy beveled headers and rich illustration finish as reference. Table—not huge devices—dominates."
+    }
+  ]
+}

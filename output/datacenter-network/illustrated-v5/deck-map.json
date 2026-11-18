@@ -1,0 +1,134 @@
+[
+  {
+    "page": 1,
+    "title": "Ethernet 与 IB 是两种网络体系；RoCE、UE 属于以太网路线",
+    "sources": [
+      "S2",
+      "S6",
+      "S8",
+      "S11"
+    ],
+    "answer_title": "Ethernet 与 IB 是两种网络体系；RoCE、UE 属于以太网路线",
+    "reader_question": "四个名字是什么关系？",
+    "case_state": "关系总览",
+    "focus_change": "嵌套分类",
+    "invariants": "概念名称与证据范围",
+    "evidence_ids": [
+      "S2",
+      "S6",
+      "S8",
+      "S11"
+    ],
+    "device_roles": "不适用：概念关系页",
+    "data_path": "不适用",
+    "feedback_path": "不适用"
+  },
+  {
+    "page": 2,
+    "title": "CPU 做准备，网卡把 KV Cache 搬到另一台服务器",
+    "sources": [
+      "S2",
+      "S6",
+      "S11"
+    ],
+    "answer_title": "CPU 做准备，网卡把 KV Cache 搬到另一台服务器",
+    "reader_question": "CPU和网卡怎样分工？",
+    "case_state": "GPU A传同一块KV Cache至GPU B",
+    "focus_change": "资源准备与数据搬运",
+    "invariants": "设备场景、端点位置、紫色数据、绿色反馈、灰色控制",
+    "evidence_ids": [
+      "S2",
+      "S6",
+      "S11"
+    ],
+    "device_roles": "发送端、交换网络、接收端",
+    "data_path": "GPU A→端点→交换网络→端点→GPU B",
+    "feedback_path": "软件完成处理"
+  },
+  {
+    "page": 3,
+    "title": "下一跳还有多少缓冲空间，决定这一跳能发多少",
+    "sources": [
+      "S2",
+      "S3"
+    ],
+    "answer_title": "下一跳还有多少缓冲空间，决定这一跳能发多少",
+    "reader_question": "IB如何避免下一跳接收缓冲溢出？",
+    "case_state": "GPU A传同一块KV Cache至GPU B",
+    "focus_change": "逐跳接收空间反馈",
+    "invariants": "设备场景、端点位置、紫色数据、绿色反馈、灰色控制",
+    "evidence_ids": [
+      "S2",
+      "S3"
+    ],
+    "device_roles": "发送端、交换网络、接收端",
+    "data_path": "GPU A→端点→交换网络→端点→GPU B",
+    "feedback_path": "逐跳流控"
+  },
+  {
+    "page": 4,
+    "title": "RoCEv2 在以太网上做 RDMA，用拥塞反馈让源端降速",
+    "sources": [
+      "S6",
+      "S14"
+    ],
+    "answer_title": "RoCEv2 在以太网上做 RDMA，用拥塞反馈让源端降速",
+    "reader_question": "RoCEv2遇到拥塞如何降速？",
+    "case_state": "GPU A传同一块KV Cache至GPU B",
+    "focus_change": "ECN标记与CNP反馈",
+    "invariants": "设备场景、端点位置、紫色数据、绿色反馈、灰色控制",
+    "evidence_ids": [
+      "S6",
+      "S14"
+    ],
+    "device_roles": "发送端、交换网络、接收端",
+    "data_path": "GPU A→端点→交换网络→端点→GPU B",
+    "feedback_path": "接收端CNP到发送端"
+  },
+  {
+    "page": 5,
+    "title": "UET 可让数据分走多条路径，并可靠交付到目标内存",
+    "sources": [
+      "S10",
+      "S11"
+    ],
+    "answer_title": "UET 可让数据分走多条路径，并可靠交付到目标内存",
+    "reader_question": "UET如何利用多路径并交付？",
+    "case_state": "GPU A传同一块KV Cache至GPU B",
+    "focus_change": "多路径与可靠交付",
+    "invariants": "设备场景、端点位置、紫色数据、绿色反馈、灰色控制",
+    "evidence_ids": [
+      "S10",
+      "S11"
+    ],
+    "device_roles": "发送端、交换网络、接收端",
+    "data_path": "GPU A→端点→交换网络→端点→GPU B",
+    "feedback_path": "可靠交付与拥塞反馈"
+  },
+  {
+    "page": 6,
+    "title": "记住：两种网络体系、一种 RDMA 方式、一套增强规范",
+    "sources": [
+      "S2",
+      "S6",
+      "S8",
+      "S11",
+      "S14"
+    ],
+    "answer_title": "记住：两种网络体系、一种 RDMA 方式、一套增强规范",
+    "reader_question": "如何复述四者区别？",
+    "case_state": "概念对照",
+    "focus_change": "三问对照",
+    "invariants": "概念名称与证据范围",
+    "evidence_ids": [
+      "S2",
+      "S6",
+      "S8",
+      "S11",
+      "S14"
+    ],
+    "device_roles": "不适用：概念关系页",
+    "data_path": "不适用",
+    "feedback_path": "不适用"
+  }
+]

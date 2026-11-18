@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "pptx_sha256": "e6c691690be01080e134e24093741a00a65dd123268e73e53474d5198a04de9f",
+  "review_basis": "实际PPTX经LibreOffice导出，逐页查看1440×810渲染与六页总览；生成原图另已检查。",
+  "pages": [
+    {
+      "page": 1,
+      "observation": "Ethernet容器内含RoCE与UE，UET位于UE内部；IB独立；已删除无依据的关系页反馈回路。",
+      "disposition": "supported",
+      "render": "../renders/01.png"
+    },
+    {
+      "page": 2,
+      "observation": "GPU显存→RDMA端点→网络→RDMA端点→GPU显存与CPU准备控制分开；平台支持条件保留。",
+      "disposition": "supported",
+      "render": "../renders/02.png"
+    },
+    {
+      "page": 3,
+      "observation": "相邻节点的可用缓冲反馈逐跳返回，三个队列状态解释允许、限制与恢复；无损不等于无排队。",
+      "disposition": "supported",
+      "render": "../renders/03.png"
+    },
+    {
+      "page": 4,
+      "observation": "ECN位于前向数据，CNP由接收RNIC回到发送RNIC；PFC为按配置的局部优先级流控。",
+      "disposition": "supported",
+      "render": "../renders/04.png"
+    },
+    {
+      "page": 5,
+      "observation": "三个逻辑路径在发送NIC处分流、接收NIC处汇合；控制反馈不携带KV数据块；profile限定保留。",
+      "disposition": "supported",
+      "render": "../renders/05.png"
+    },
+    {
+      "page": 6,
+      "observation": "表格覆盖是什么、基于什么、解决什么；RoCE反向通知修正为CNP，底部嵌套关系一致。",
+      "disposition": "supported",
+      "render": "../renders/06.png"
+    }
+  ],
+  "style_review": "匹配用户指定visual-v3：丰富设备剖面、内存/队列状态、立体数据块、就地标签和局部展开；不再采用设备贴图加独立文字卡片的替代构图。",
+  "requirements": {
+    "R1": "supported",
+    "R2": "supported",
+    "R3": "supported",
+    "R4": "supported",
+    "R5": "supported：风格合同、四阶段skill、AGENTS、README及drawing-workflow已同步修订"
+  },
+  "limits": [
+    "主图栅格不可逐部件编辑，页脚与备注可编辑。",
+    "设备及路径为机制示意，非产品CAD或BOM。",
+    "资料复用2026-11-17核查，非本次全面联网重查。",
+    "此为代理视觉与语义审查，不是自动真实性或审美认证。"
+  ]
+}

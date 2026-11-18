@@ -1,0 +1,18 @@
+{
+  "visual_style": "mechanism-illustrated",
+  "style_revision": 2,
+  "render_mode": "integrated-static-illustration",
+  "backend": "standalone python-pptx",
+  "topic": "数据中心网络：Ethernet、InfiniBand、RoCE与Ultra Ethernet",
+  "running_example": "同一块KV Cache从GPU服务器A到B",
+  "reference": "../visual-v3/assets/01.jpg",
+  "requirements": [
+    "R1 匹配用户明确指定visual-v3整页机制插画风格",
+    "R2 设备内部、数据块、队列、回路一体绘制",
+    "R3 关系先导、答案式标题、同一案例、末页对照",
+    "R4 主图静态栅格且如实说明不可逐部件编辑",
+    "R5 同步更新风格skill和全部入口"
+  ],
+  "source_policy": "复用已核查官方证据及2026-11-17核查日期",
+  "editability": "主图栅格不可逐部件编辑；来源页脚与备注可编辑"
+}

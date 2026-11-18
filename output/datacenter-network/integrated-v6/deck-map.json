@@ -1,0 +1,122 @@
+[
+  {
+    "page": "01",
+    "reader_question": "四个名字之间是什么关系？",
+    "answer_title": "先分清两种网络体系，再看以太网上的增强",
+    "source_ids": [
+      "S2",
+      "S6",
+      "S8",
+      "S11"
+    ],
+    "asset": "assets/01.png",
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "running_example": "GPU A向GPU B传同一块KV Cache",
+    "render_mode": "integrated-static-illustration",
+    "visual_reference": "../visual-v3/assets/01.jpg"
+  },
+  {
+    "page": "02",
+    "reader_question": "CPU与网卡如何分工？",
+    "answer_title": "CPU 做准备，网卡搬运 KV Cache",
+    "source_ids": [
+      "S2",
+      "S6",
+      "S11"
+    ],
+    "asset": "assets/02.png",
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "running_example": "GPU A向GPU B传同一块KV Cache",
+    "render_mode": "integrated-static-illustration",
+    "visual_reference": "../visual-v3/assets/02.jpg"
+  },
+  {
+    "page": "03",
+    "reader_question": "IB如何避免下一跳缓冲溢出？",
+    "answer_title": "IB：下一跳可用缓冲，决定这一跳能发多少",
+    "source_ids": [
+      "S2",
+      "S3"
+    ],
+    "asset": "assets/03.png",
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "running_example": "GPU A向GPU B传同一块KV Cache",
+    "render_mode": "integrated-static-illustration",
+    "visual_reference": "../visual-v3/assets/03.jpg"
+  },
+  {
+    "page": "04",
+    "reader_question": "RoCEv2拥塞时怎样降速？",
+    "answer_title": "RoCEv2：接收端反馈拥塞，发送端降低速率",
+    "source_ids": [
+      "S6",
+      "S14"
+    ],
+    "asset": "assets/04.png",
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "running_example": "GPU A向GPU B传同一块KV Cache",
+    "render_mode": "integrated-static-illustration",
+    "visual_reference": "../visual-v3/assets/04.jpg"
+  },
+  {
+    "page": "05",
+    "reader_question": "UET如何分发并完成交付？",
+    "answer_title": "UET：多路径分发，端点协同完成交付",
+    "source_ids": [
+      "S10",
+      "S11"
+    ],
+    "asset": "assets/05.png",
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "running_example": "GPU A向GPU B传同一块KV Cache",
+    "render_mode": "integrated-static-illustration",
+    "visual_reference": "../visual-v3/assets/05.jpg"
+  },
+  {
+    "page": "06",
+    "reader_question": "如何复述四者区别？",
+    "answer_title": "带走三问：它是什么，基于什么，解决什么",
+    "source_ids": [
+      "S2",
+      "S6",
+      "S8",
+      "S11",
+      "S14"
+    ],
+    "asset": "assets/06.png",
+    "requirements": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "running_example": "GPU A向GPU B传同一块KV Cache",
+    "render_mode": "integrated-static-illustration",
+    "visual_reference": "../visual-v3/assets/06.jpg"
+  }
+]

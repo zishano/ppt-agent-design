@@ -1,0 +1,17 @@
+{
+  "topic": "数据中心网络：Ethernet、InfiniBand、RoCE与Ultra Ethernet",
+  "visual_style": "mechanism-illustrated",
+  "backend": "standalone python-pptx",
+  "relationship_first": true,
+  "running_example": "同一块 KV Cache 从 GPU A 到 GPU B",
+  "render_mode": "static-illustration-with-native-overlays",
+  "source_policy": "复用2026-11-17已核查官方来源，不虚构性能或硬件参数",
+  "requirements": [
+    "先解释概念关系",
+    "答案式标题",
+    "统一设备场景与语义颜色",
+    "逐页展开机制而非装饰",
+    "末页概念对照表",
+    "静态且文字路径可编辑"
+  ]
+}
