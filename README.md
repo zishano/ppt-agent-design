@@ -90,3 +90,11 @@ docs/images/                     # 示例实际 PPTX 的渲染预览
 ## 生成项目的统一位置
 
 后续生成的 PPT 及其调研、源代码和验证产物统一放入 [`output/<项目名>/`](output/README.md)。当前项目：[AI 集群通信与 Scale-up / Scale-out](output/ai-network-deck/README.md)。
+
+## 可选绘制风格
+
+| 风格 | 适合内容 | 调用方式 |
+| --- | --- | --- |
+| [机制插画风格](references/styles/mechanism-illustrated.zh-CN.md) `mechanism-illustrated` | 立体设备、数据路径、协议机制、反馈回路与软硬件协同 | “使用机制插画风格生成……PPT” |
+
+保留机制插画版的直观画风，同时要求先讲概念关系、用同一案例贯穿、每页标题回答一个问题，末页帮助复述。默认静态设备插画与可编辑文字、路径、表格混合制作；真实机器另叠加整机与部件证据规则。该风格通过现有四阶段 skill 执行，不改变其他风格的默认行为。

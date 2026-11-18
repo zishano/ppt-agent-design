@@ -1,0 +1,12 @@
+{
+  "topic": "Ethernet、InfiniBand、RoCE 与 Ultra Ethernet",
+  "audience": "初次接触概念的读者",
+  "requirements": [
+    "关系图优先",
+    "答案式标题",
+    "GPU A→GPU B 同一 KV Cache 案例",
+    "末页三问对照表"
+  ],
+  "format": "6页 16:9 静态",
+  "source_checked": "2026-11-17"
+}

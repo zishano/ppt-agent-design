@@ -56,3 +56,6 @@ Research → component/quantity ledger → one-page whole-machine-left / layered
 
 ## 7. Project output location
 Create every new presentation project in repository-root `output/<project-name>/`. Keep its brief, sources, claims, page map, drawing code, `research/`, `exports/`, `renders/` and `validation/` together. Retain revisions in separate named subdirectories. Scripts resolve paths from their own location; do not default to a sibling workspace directory or the legacy `outputs/` spelling. Keep local renderer profiles/caches out of version control. See [output convention](../output/README.md).
+
+## 8. Selectable mechanism-illustrated style
+For static illustrated devices with explanatory data/feedback paths, apply [mechanism-illustrated](../references/styles/mechanism-illustrated.zh-CN.md). Sequence: concept relationships → one running example → focused mechanism changes → takeaway comparison, as applicable. Default to reusable static device assets plus native editable overlays. This extends drawing choices without changing backend or evidence requirements.

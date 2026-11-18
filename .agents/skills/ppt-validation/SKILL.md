@@ -34,3 +34,6 @@ Apply the checklist in references/physical-machine.zh-CN.md. Verify that the lef
 
 ## Output root
 Keep validation reports and preview artifacts under the same `output/<project-name>/` as the deliverables. Verify artifact links after relocation; do not relabel previous manual checks as newly executed or overwrite them with a package-only rerun.
+
+## Optional mechanism-illustrated style
+Read `references/styles/mechanism-illustrated.zh-CN.md` relative to the repository root. When selected, apply the style checklist: conceptual relationships, problem solved, same-example continuity, data and feedback destinations, evidence boundaries, final takeaway, actual renders, editability and static-media file size. Device recognition alone is not explanatory success.

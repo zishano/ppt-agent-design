@@ -22,3 +22,6 @@ Apply references/physical-machine.zh-CN.md. Produce a coherent left whole-machin
 
 ## Output root
 The isolated project directory is repository-root `output/<project-name>/`, not a sibling workspace folder or legacy `outputs/`. Keep sources, exports and renders together; resolve script paths from the project directory. Exclude local renderer profiles/caches from Git. User-specified destinations override this default.
+
+## Optional mechanism-illustrated style
+Read `references/styles/mechanism-illustrated.zh-CN.md` relative to the repository root. When selected, reuse coherent static device illustrations with native editable text, paths and tables by default. Preserve positions, viewpoint and semantic colors across mechanism pages. Disclose raster limits; keep device geometry and counts evidence-backed or explicitly qualified.

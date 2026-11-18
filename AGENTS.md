@@ -28,3 +28,6 @@ For machine, rack, server, board or equipment composition diagrams, read [refere
 
 ## Generated project location
 All future generated presentation projects belong under this repository’s `output/<project-name>/`, including briefs, evidence, source code, exports, renders and validation. Use a new project/revision subdirectory to preserve prior rounds. Resolve paths relative to the project/repository, not a fixed `/workspace` location. An explicit user destination takes precedence. See [output/README.md](output/README.md).
+
+## Selectable presentation styles
+For an explicit “机制插画版 / 机制插画风格” request, select `mechanism-illustrated` and read [the style contract](references/styles/mechanism-illustrated.zh-CN.md). This is an optional style, not a new default for every deck. Record selection in the brief and apply it through all four stages. Preserve evidence, backend and physical-machine contracts.
