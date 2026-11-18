@@ -57,5 +57,10 @@ Research → component/quantity ledger → one-page whole-machine-left / layered
 ## 7. Project output location
 Create every new presentation project in repository-root `output/<project-name>/`. Keep its brief, sources, claims, page map, drawing code, `research/`, `exports/`, `renders/` and `validation/` together. Retain revisions in separate named subdirectories. Scripts resolve paths from their own location; do not default to a sibling workspace directory or the legacy `outputs/` spelling. Keep local renderer profiles/caches out of version control. See [output convention](../output/README.md).
 
-## 8. Selectable mechanism-illustrated style
-For static illustrated devices with explanatory data/feedback paths, apply [mechanism-illustrated](../references/styles/mechanism-illustrated.zh-CN.md). Sequence: concept relationships → one running example → focused mechanism changes → takeaway comparison, as applicable. Default to a complete static technical illustration per page with integrated cutaways, data blocks, queues and feedback, matching visual-v3. Raster main images are an explicit style choice and are not independently editable; native footers and notes are allowed. Do not replace this with device cutouts plus native boxes/cards. This extends drawing choices without changing backend or evidence requirements.
+## 8. Two independent mechanism styles
+Select using [the style catalog](../references/styles/README.md):
+
+- [mechanism-illustrated](../references/styles/mechanism-illustrated.zh-CN.md): preserve the original complete static technical illustration, with integrated cutaways, data blocks, queues, feedback and labels. Main artwork is raster; source footer/notes may remain native. Review raster labels and disclose editing limits.
+- [mechanism-editable](../references/styles/mechanism-editable.zh-CN.md): native editable geometric illustrations, real text, device groups and editable paths. Check nested objects and actual title/color/device-position edit/save/reopen behavior. Visual detail can improve independently; do not replace it with a full-slide image.
+
+Both use evidence → semantic map → representative page → production → actual render review. Neither changes the other’s contract. Paths may require manual endpoint adjustment after moving a device unless automatic reconnect behavior has been verified.

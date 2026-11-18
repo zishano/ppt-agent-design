@@ -21,5 +21,5 @@ For machine/rack/equipment composition, read references/physical-machine.zh-CN.m
 ## Output root
 Set the project root to repository-root `output/<project-name>/` unless the user explicitly supplies another destination. Save brief.json there and use this same root through all later stages. Preserve existing rounds with distinct revision directories.
 
-## Optional mechanism-illustrated style
-Read `references/styles/mechanism-illustrated.zh-CN.md` relative to the repository root. Recognize an explicit 机制插画版 / 机制插画风格 request. Record `visual_style: mechanism-illustrated`, `render_mode: integrated-static-illustration`, running example, relationship-first need, illustration permissions and raster-main-image editability limits in brief.json; do not impose this style on all decks.
+## Selectable mechanism styles
+Read `references/styles/README.md` relative to the repository root, then the selected style contract. Both mechanism-illustrated and mechanism-editable are independent options, not stages. Record visual_style, render_mode, editability and reference version in brief.json. An explicit editable request selects the editable branch; do not rewrite the original illustrated contract.

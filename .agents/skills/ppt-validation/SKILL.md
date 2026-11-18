@@ -35,5 +35,5 @@ Apply the checklist in references/physical-machine.zh-CN.md. Verify that the lef
 ## Output root
 Keep validation reports and preview artifacts under the same `output/<project-name>/` as the deliverables. Verify artifact links after relocation; do not relabel previous manual checks as newly executed or overwrite them with a package-only rerun.
 
-## Optional mechanism-illustrated style
-Read `references/styles/mechanism-illustrated.zh-CN.md` relative to the repository root. When selected, apply the style checklist: conceptual relationships, problem solved, same-example continuity, data and feedback destinations, evidence boundaries, final takeaway, actual renders, editability and static-media file size. Compare the actual complete composition against visual-v3; reject sparse device-cutout/card substitutes. Inspect all raster labels and arrows visually against the approved semantic map; text extraction cannot verify embedded image text. Device recognition alone is not explanatory success.
+## Selectable mechanism styles
+Read `references/styles/README.md` relative to the repository root, then the selected style contract. Both mechanism-illustrated and mechanism-editable are independent options, not stages. For mechanism-illustrated inspect all image labels, device/state details and paths in actual renders and disclose raster editing limits. For mechanism-editable additionally inspect nested object types and test title/color/device-position edits through save/reopen. Validate the selected branch rather than applying one style’s editing rules to the other.

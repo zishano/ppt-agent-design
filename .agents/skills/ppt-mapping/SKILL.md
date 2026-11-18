@@ -33,5 +33,5 @@ Apply references/physical-machine.zh-CN.md. Map parent/component IDs, per-unit a
 ## Output root
 Store source, claim, dataset and page-map artifacts in the task’s repository-root `output/<project-name>/`. Use relative artifact paths and keep the same root as brief.json.
 
-## Optional mechanism-illustrated style
-Read `references/styles/mechanism-illustrated.zh-CN.md` relative to the repository root. When selected, map reader_question, answer_title, case_state, focus_change, device_roles, data_path, feedback_path, invariants and evidence_ids. Map cutaway internals, state insets, embedded labels and the complete illustrated scene, not detached device photos plus text cards. Preserve one example and semantic colors across pages; plan concept relationships and a takeaway comparison where appropriate.
+## Selectable mechanism styles
+Read `references/styles/README.md` relative to the repository root, then the selected style contract. Both mechanism-illustrated and mechanism-editable are independent options, not stages. Map evidence, scene, state ownership and paths for both styles. For mechanism-illustrated plan integrated artwork and exact labels; for mechanism-editable map named native objects/groups and editable components. Keep a shared running example where appropriate.

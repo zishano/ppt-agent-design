@@ -93,8 +93,11 @@ docs/images/                     # 示例实际 PPTX 的渲染预览
 
 ## 可选绘制风格
 
-| 风格 | 适合内容 | 调用方式 |
-| --- | --- | --- |
-| [机制插画风格](references/styles/mechanism-illustrated.zh-CN.md) `mechanism-illustrated` | 立体设备、数据路径、协议机制、反馈回路与软硬件协同 | “使用机制插画风格生成……PPT” |
+两种风格独立保留，详见[选择规则](references/styles/README.md)。
 
-保留机制插画版的直观画风，同时要求先讲概念关系、用同一案例贯穿、每页标题回答一个问题，末页帮助复述。默认完整静态机制插画：剖面、数据块、队列、反馈与短标签融合在主图中（以原 visual-v3 为画风基准）；主图不可逐部件编辑，页脚与备注可编辑；真实机器另叠加整机与部件证据规则。该风格通过现有四阶段 skill 执行，不改变其他风格的默认行为。
+| 风格 | 表现方式 | 编辑范围 | 调用方式 |
+| --- | --- | --- | --- |
+| [机制插画风格](references/styles/mechanism-illustrated.zh-CN.md) `mechanism-illustrated` | 之前的完整、细致静态机制插画 | 主图不可逐部件编辑；页脚、备注可编辑 | “使用机制插画风格生成……” |
+| [可编辑机制图风格](references/styles/mechanism-editable.zh-CN.md) `mechanism-editable` | 当前的原生几何机制图，后续独立优化 | 文字、设备部件、数据块、队列和路径可修改 | “使用可编辑机制图风格生成……” |
+
+两者沿用同一四阶段 skill 与证据流程。选择可编辑版不会修改原机制插画风格，也不把原图细腻程度作为已经达到的效果承诺。
